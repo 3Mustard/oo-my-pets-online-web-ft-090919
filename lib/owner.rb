@@ -1,3 +1,7 @@
 class Owner
-  # code goes here
+  attr_reader :name
+  
+  def initialize(name,spec)
+    @name = name 
+  end 
 end
